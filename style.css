@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.baba{
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.ami{
+    background-color: blueviolet;
+    width: 45%;
+    padding: 29px;
+    box-sizing: border-box;
+    
+
+}
+.bon{
+    background-color: aqua;
+    width: 50%;
+    padding: 29px;
+    box-sizing: border-box;
+    
+}
+.rahim{
+    background-color: navy;
+    padding: 60px;
+}
+.ab{
+    margin: auto;
+    width: 90%;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section-title h2 {
+    font-size: 30px;
+}
+.team{
+    
+}
