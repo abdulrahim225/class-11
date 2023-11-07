@@ -1,6 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner:wght@600&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
+}
+.manu{
+    background-color: grey;
+    
+}
+.manu ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.manu ul li a{
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;}
+
+.manu ul li a:hover{
+    color: crimson;
+    background-color: white;
 }
 
 .baba{
@@ -39,6 +61,53 @@
 .section-title h2 {
     font-size: 30px;
 }
+.title{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .team{
+    width: 24% ;
     
+}
+
+.team img{
+    width: 100%;
+}
+
+.team h4{}
+
+.box{
+    height: 350px;
+    width: 600px;
+    background-color: brown;
+    margin: 100px auto;
+    display: flex;
+    justify-self: center;
+    align-items: center ;
+}
+.inner-box{
+    background-color:white;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 0px 5px;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.inner-box-1{
+    background-color:white ;
+    color: black;
+    width: 125px;
+    height: 100px;
+    margin: 0px 5px;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
